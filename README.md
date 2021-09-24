@@ -1,3 +1,1 @@
 # Stop-Chart
-
-## Test
