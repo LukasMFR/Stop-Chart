@@ -95,7 +95,6 @@
 		DB769642238E616B007C4590 /* ISOStopChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISOStopChartView.swift; sourceTree = "<group>"; };
 		DB769644238E61C7007C4590 /* WhatIsStopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIsStopView.swift; sourceTree = "<group>"; };
 		DB769646238E9E40007C4590 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
-		DB8BEC5C26FE709C00550AEE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DB929B1A23B23B68005A1E5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DB929B1C23B23B78005A1E5A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DB98E42023C0F68400E32E4B /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
@@ -140,7 +139,6 @@
 		DB76961E238E5746007C4590 = {
 			isa = PBXGroup;
 			children = (
-				DB8BEC5C26FE709C00550AEE /* README.md */,
 				DB769629238E5746007C4590 /* Stop Chart */,
 				DBD2B5E623C0DE55001A5922 /* Stop Chart Apple Watch */,
 				DBD2B5F523C0DE56001A5922 /* Stop Chart Apple Watch Extension */,
