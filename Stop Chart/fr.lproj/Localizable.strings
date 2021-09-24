@@ -1,0 +1,63 @@
+/* 
+  Localizable.strings
+  Stop Chart
+
+  Created by Lukas Mauffré on 24/12/2019.
+  Copyright © 2019 Lukas Mauffré. All rights reserved.
+*/
+
+"main" = "PRINCIPAL";
+"showChartOfDesiredParameter" = "Afficher le tableau du paramètre désiré.";
+"apertureStopChart" = "Tableau des stops de l'ouverture";
+"shutterSpeedStopChart" = "Tableau des stops du temps d'obturation";
+"isoStopChart" = "Tableau des stops des ISO";
+"moreInfo" = "PLUS D'INFOS";
+"whatIsAStopInPhotography" = "Qu'est-ce qu'un stop en photographie ?";
+"about" = "À propos";
+"appProjectTalksAboutStop" = "Cette application est juste un projet que j’ai fait à propos des stops.";
+"socialNetworks" = "RÉSEAUX SOCIAUX";
+"pleaseFollowMe" = "Suivez-moi s’il vous plaît !";
+"emailMe" = "Contactez-moi";
+"aboutTheApp" = "À propos de l'application";
+"appVersion" = "Version de l'application";
+"credits" = "Crédits";
+"creditsGoTo" = "Merci à PHOTOGRAPHY MAD pour leur très bon article. Et à SHUTTER MUSE pour leur excellent tableau.";
+"whatIsAStop" = "Qu'est-ce qu'un stop ?";
+"inPhotographyAStop" = "En photographie, un \"stop\" est un concept vaguement compris, craint par beaucoup car il semble très compliqué. Cependant, c'est en fait très simple :";
+"stopDoubling" = "Un stop est le double ou la moitié de la quantité de lumière qui est laissée entrée lors de la prise de vue.";
+"forExample" = "Par exemple, si vous entendez un photographe dire qu’il va augmenter son exposition d’un stop, cela veut simplement dire qu’il va capturer deux fois plus de lumière que sur l'image précédente.";
+"stopIsAMeasure" = "Un stop est une mesure de l’exposition liée au doublement ou à la réduction de moitié de la quantité de lumière. Image par Hamed Saber.";
+"amountOfLightCaptured" = "La quantité de lumière capturée lors de la prise d’une photo est connue sous le nom exposition, et elle est affectée par trois facteurs - la vitesse d’obturation, le diamètre d’ouverture, et l’ISO ou la vitesse du film. Tous ces éléments sont mesurés à l’aide de différentes unités, de sorte que le concept de \"stop\" a été inventé comme un moyen commode de les comparer.";
+"stopsAndShutterSpeed" = "STOPS ET VITESSE D’OBTURATION";
+"shutterSpeedMeasures" = "La vitesse d’obturation mesure la durée pendant laquelle l’obturateur de la caméra est laissé ouvert pendant une prise de vue. Plus elle est longue, plus elle laisse entrer de lumière, et plus votre exposition totale sera grande. Doubler ou réduire de moitié la vitesse d’obturation produit une augmentation ou une diminution de 1 stop d’exposition.";
+"commonShutterSpeedStops" = "Stops de vitesse d’obturation communs.";
+"forExampleChanging" = "Par exemple, passer de 1/100 de seconde à 1/200 permet de réduire de moitié la lumière, ce qui nous permet de dire que nous avons réduit l’exposition de 1 stop. De même, passer de 1/60 à 1/30 laisse entrer deux fois plus de lumière, ce qui donne une augmentation d’exposition de 1 stop.";
+"mostCamerasAllow" = "La plupart des caméras vous permettent de régler les vitesses d’obturation par incréments de 1/3 de stop, donc 3 tours de molette dans un sens ou dans l’autre régleront votre exposition par 1 stop.";
+"stopsAndISOSpeed" = "STOPS ET VITESSE ISO";
+"ISOSpeedDescribes" = "La vitesse ISO décrit la sensibilité du capteur de votre caméra à la lumière qui l’atteint. Un capteur plus sensible produira la même exposition globale à partir de moins de lumière, ce qui signifie que vous pouvez utiliser une ouverture plus petite ou une vitesse d’obturation plus rapide dans les mêmes conditions.";
+"commonISOSpeedStops" = "Stops de vitesse ISO courants.";
+"ISOIsMeasured" = "L’ISO est mesurée à l’aide de valeurs qui correspondent à l’échelle ASA pour le film, avec un numéro ISO supérieur relatif à un capteur plus sensible. Comme pour la vitesse d’obturation, le doublement du nombre ISO donne une augmentation de 1 stop, tandis que la réduction en deux lui donne une diminution de 1 stop.";
+"forExampleSwitching" = "Par exemple, passer d’ISO 100 à ISO 200 double la sensibilité du capteur, ce qui produit une augmentation de 1 stop. Passer d’ISO 800 à ISO 400 est une diminution de 1 stop. La plupart des caméras vous permettent de changer la vitesse ISO par incréments de 1 stop.";
+"stopsAndAperture" = "STOPS ET DIAMÈTRE D’OUVERTURE";
+"apertureIsMeasured" = "L’ouverture est mesurée à l’aide du \"numéro F\", parfois appelé le \"f-stop\", qui décrit le diamètre de l’ouverture. Un nombre de f inférieur se rapporte à une ouverture plus large (celle qui laisse entrer plus de lumière), tandis qu’un nombre de f supérieur signifie une ouverture plus étroite (moins de lumière).";
+"commonApertureStops" = "Stops d'ouverture commun.";
+"becauseOfTheWay" = "En raison de la façon dont les numéros F sont calculés, un stop ne correspond pas à un doublement ou la moitié de la valeur, mais à une multiplication ou division par 1,41 (la racine carrée de 2). Par exemple, passer de f/2.8 à f/4 est une diminution de 1 stop parce que 4 = 2.8 * 1.41. Le passage de f/16 à f/11 est une augmentation de 1 stop car 11 = 16 / 1,41.";
+"asWithShutterSpeed" = "Comme avec la vitesse d’obturation, la plupart des caméras vous permettent de contrôler votre ouverture par incréments de 1/3 de stop.";
+"stopsAreInterchangeable" = "LES STOPS SONT INTERCHANGEABLES";
+"theGreatThing" = "Le bon point à propos des stops est qu’ils nous donnent un moyen de comparer directement la vitesse d’obturation, le diamètre d’ouverture, et la vitesse ISO. Cela signifie que nous pouvons facilement changer ces trois facteurs tout en conservant l’exposition globale.";
+"letsSay" = "Disons que vous photographiez une scène en utilisant une vitesse d’obturation de 1/60 de seconde, une ouverture de f/8 et un ISO de 200. Vous constatez que malgrès le fait que la scène soit bien exposée, votre sujet est un peu flou, donc vous décidez d’augmenter la vitesse d’obturation à 1/120 de seconde.";
+"thisChangeOf" = "Ce changement de 1 stop se traduira par une photo sombre, parce que vous ne laissez que la moitié de la lumière totale par rapport à avant. Pour corriger cela, vous devez récupérer cette réduction de 1 stop ailleurs. Maintenant que nous avons une façon de comparer les paramètres, c’est plus simple.";
+"youCouldOpen" = "Vous pouvez choisir une ouverture plus grande pour laisser entrer plus de lumière - passer de f/8 à f/5.6 sera une augmentation de 1 stop, nous avons donc de nouveau notre exposition initiale.";
+"alternativelyYouCould" = "Vous pouvez également doubler la vitesse ISO de 200 à 400, ce qui entraînera une augmentation de 1 stop.";
+"asYouCanSee" = "Comme vous pouvez le voir, les stops sont un moyen très facile d’ajuster les réglages de votre caméra tout en s’assurant que nous ne ruinons pas l’exposition globale de la photo.";
+"conderationsWhenAdjustingExposure" = "CONSIDÉRATIONS À PRENDRE EN COMPTE POUR AJUSTER L’EXPOSITION";
+"whenAdjustingTheThree" = "Lors de l’ajustement des ces trois facteurs de l’exposition, vous devez être conscient que chacun d’eux affecte vos photos d'une autre façon, ce qui n'est pas toujours souhaitable :";
+"shutterSpeedIf" = " • Vitesse d’obturation - Si votre vitesse d’obturation est trop lente, votre photo peut être floue, soit par le mouvement de la caméra, soit par le mouvement du sujet.";
+"apertureA" = " • Ouverture - Une ouverture plus grande produit une faible profondeur de champ, donc si vous en choisissez une trop grande vous aurez du mal à garder tout en focus. D’autre part, une faible profondeur de champ peut aider à isoler le sujet, et est souvent quelque chose de désirable; et si c'est ce que vous souhaitez, vous devez éviter d’utiliser une petite ouverture.";
+"ISOSpeedThe" = " • Vitesse ISO - Plus vous augmentez l’ISO de votre appareil photo, plus le bruit numérique sera présent. Cela peut rajouter du grain à votre image et réduire sa netteté.";
+"asWithEverything" = "Comme pour tout en photographie, l’ajustement de ces trois réglages est un exercice d’équilibre. Vous devez choisir quels effets vous voulez donner dans votre prise de vue et choisir les paramètres qui les produiront tout en minimisant les inconvénients potentiels.";
+"exposureStopsAreA" = "Les stops d’exposition sont un outil vraiment utile pour faire cela, vous aidant à changer les paramètres avec facilité et donner plus de contrôle sur votre scène.";
+"linkToOriginalArticle" = "Lien vers l'article d'origine";
+"doneButton" = "OK";
+"swipeToTheRight" = "Balayez vers la droite";
+"madeWithLove" = "Fait avec ❤️ par  Lukas en France 🇫🇷";
