@@ -32,25 +32,31 @@ struct DefaultView: View {
     
     var body: some View {
         VStack {
-            List {
-                Section(header: Text("main"), footer: Text("showChartOfDesiredParameter")) {
-                    NavigationLink(destination: ApertureStopChartView()) {
-                        Text("apertureStopChart")
+            if #available(iOS 14.0, *) {
+                List {
+                    Section(header: Text("main"), footer: Text("showChartOfDesiredParameter")) {
+                        NavigationLink(destination: ApertureStopChartView()) {
+                            Text("apertureStopChart")
+                        }
+                        NavigationLink(destination: ShutterSpeedStopChartView()) {
+                            Text("shutterSpeedStopChart")
+                        }
+                        NavigationLink(destination: ISOStopChartView()) {
+                            Text("isoStopChart")
+                        }
                     }
-                    NavigationLink(destination: ShutterSpeedStopChartView()) {
-                        Text("shutterSpeedStopChart")
+                    
+                    Section(header: Text("moreInfo")) {
+                        NavigationLink(destination: WhatIsStopView()) {
+                            Text("whatIsAStopInPhotography")
+                        }
                     }
-                    NavigationLink(destination: ISOStopChartView()) {
-                        Text("isoStopChart")
-                    }
-                }
-                
-                Section(header: Text("moreInfo")) {
-                    NavigationLink(destination: WhatIsStopView()) {
-                        Text("whatIsAStopInPhotography")
-                    }
-                }
-            }.listStyle(GroupedListStyle())
+                }//.listStyle(GroupedListStyle())
+                .listStyle(InsetGroupedListStyle())
+                .environment(\.horizontalSizeClass, .regular)
+            } else {
+                // Fallback on earlier versions
+            }
             
 //            VStack {
 //                AdView().frame(width: 320, height: 50)
