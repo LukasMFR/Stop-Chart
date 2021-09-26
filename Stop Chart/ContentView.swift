@@ -51,17 +51,13 @@ struct DefaultView: View {
                     }
                 }
             }//.listStyle(GroupedListStyle())
-            .listStyle(InsetGroupedListStyle())
-            .environment(\.horizontalSizeClass, .regular)
-            
-            
-//            VStack {
-//                AdView().frame(width: 320, height: 50)
-//            }.edgesIgnoringSafeArea([.top, .leading, .trailing])
+//            .listStyle(InsetGroupedListStyle())
+//            .environment(\.horizontalSizeClass, .regular)
+            .listStyle(SidebarListStyle())
             
         }
             
-            .navigationBarTitle(Text("Stop Chart"))
+            .navigationTitle("Stop Chart")
             .navigationBarItems(trailing:
                 Button(action: {
                     self.showModal.toggle()

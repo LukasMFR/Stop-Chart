@@ -20,6 +20,7 @@
 		DB769647238E9E40007C4590 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB769646238E9E40007C4590 /* AboutView.swift */; };
 		DB929B1923B23B68005A1E5A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB929B1B23B23B68005A1E5A /* Localizable.strings */; };
 		DB98E42123C0F68400E32E4B /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB98E42023C0F68400E32E4B /* AboutView.swift */; };
+		DBD1899B2700D7F80088D556 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD1899A2700D7F80088D556 /* Sidebar.swift */; };
 		DBD2B5E923C0DE55001A5922 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD2B5E723C0DE55001A5922 /* Interface.storyboard */; };
 		DBD2B5EB23C0DE56001A5922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD2B5EA23C0DE56001A5922 /* Assets.xcassets */; };
 		DBD2B5F223C0DE56001A5922 /* Stop Chart Apple Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DBD2B5F123C0DE56001A5922 /* Stop Chart Apple Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -98,6 +99,7 @@
 		DB929B1A23B23B68005A1E5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DB929B1C23B23B78005A1E5A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DB98E42023C0F68400E32E4B /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		DBD1899A2700D7F80088D556 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
 		DBD2B5E523C0DE55001A5922 /* Stop Chart Apple Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stop Chart Apple Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD2B5E823C0DE55001A5922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		DBD2B5EA23C0DE56001A5922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				DB76962A238E5746007C4590 /* AppDelegate.swift */,
 				DB76962C238E5746007C4590 /* SceneDelegate.swift */,
 				DB76962E238E5746007C4590 /* ContentView.swift */,
+				DBD1899A2700D7F80088D556 /* Sidebar.swift */,
 				DB76963E238E6123007C4590 /* ApertureStopChartView.swift */,
 				DB769640238E615C007C4590 /* ShutterSpeedStopChartView.swift */,
 				DB769642238E616B007C4590 /* ISOStopChartView.swift */,
@@ -367,6 +370,7 @@
 				DB76963F238E6123007C4590 /* ApertureStopChartView.swift in Sources */,
 				DB76962D238E5746007C4590 /* SceneDelegate.swift in Sources */,
 				DB769645238E61C7007C4590 /* WhatIsStopView.swift in Sources */,
+				DBD1899B2700D7F80088D556 /* Sidebar.swift in Sources */,
 				DB76962F238E5746007C4590 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
