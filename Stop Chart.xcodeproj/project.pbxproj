@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB57C76A2B9A6F1A00770679 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DB57C7692B9A6F1A00770679 /* README.md */; };
 		DB76962B238E5746007C4590 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76962A238E5746007C4590 /* AppDelegate.swift */; };
 		DB76962D238E5746007C4590 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76962C238E5746007C4590 /* SceneDelegate.swift */; };
 		DB76962F238E5746007C4590 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76962E238E5746007C4590 /* ContentView.swift */; };
@@ -82,6 +83,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DB57C7692B9A6F1A00770679 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DB742740238EEC530031AFAC /* Stop Chart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Stop Chart.entitlements"; sourceTree = "<group>"; };
 		DB769627238E5746007C4590 /* Stop Chart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stop Chart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB76962A238E5746007C4590 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 		DB76961E238E5746007C4590 = {
 			isa = PBXGroup;
 			children = (
+				DB57C7692B9A6F1A00770679 /* README.md */,
 				DB769629238E5746007C4590 /* Stop Chart */,
 				DBD2B5E623C0DE55001A5922 /* Stop Chart Apple Watch */,
 				DBD2B5F523C0DE56001A5922 /* Stop Chart Apple Watch Extension */,
@@ -332,6 +335,7 @@
 			files = (
 				DB769637238E5747007C4590 /* LaunchScreen.storyboard in Resources */,
 				DB929B1923B23B68005A1E5A /* Localizable.strings in Resources */,
+				DB57C76A2B9A6F1A00770679 /* README.md in Resources */,
 				DB769634238E5747007C4590 /* Preview Assets.xcassets in Resources */,
 				DB769631238E5747007C4590 /* Assets.xcassets in Resources */,
 			);
