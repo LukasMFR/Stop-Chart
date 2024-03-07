@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_3237" translatesAutoresizingMaskIntoConstraints="NO" id="lgz-II-o2w">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StopChart-icon@1024px" translatesAutoresizingMaskIntoConstraints="NO" id="hmc-58-neY">
+                                <rect key="frame" x="87" y="293" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="6PT-02-pcT"/>
+                                    <constraint firstAttribute="height" constant="240" id="gzR-gO-qqj"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stop Chart" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XjC-Pz-C6N">
+                                <rect key="frame" x="101.5" y="541" width="211" height="51"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="42"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="hmc-58-neY" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5PI-tG-wa9"/>
+                            <constraint firstItem="lgz-II-o2w" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="AGN-Au-byC"/>
+                            <constraint firstItem="lgz-II-o2w" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="BHA-aq-HuW"/>
+                            <constraint firstItem="hmc-58-neY" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-35" id="FaQ-ME-k9m"/>
+                            <constraint firstAttribute="bottom" secondItem="lgz-II-o2w" secondAttribute="bottom" id="KaT-g6-ao6"/>
+                            <constraint firstItem="XjC-Pz-C6N" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="YsV-kJ-ukE"/>
+                            <constraint firstItem="XjC-Pz-C6N" firstAttribute="top" secondItem="hmc-58-neY" secondAttribute="bottom" constant="8" id="gPc-SI-1tg"/>
+                            <constraint firstAttribute="trailing" secondItem="lgz-II-o2w" secondAttribute="trailing" id="uyi-y6-n0w"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IMG_3237" width="1242" height="2688"/>
+        <image name="StopChart-icon@1024px" width="1024" height="1024"/>
+    </resources>
+</document>

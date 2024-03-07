@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB76962B238E5746007C4590 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76962A238E5746007C4590 /* AppDelegate.swift */; };
+		DB76962D238E5746007C4590 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76962C238E5746007C4590 /* SceneDelegate.swift */; };
+		DB76962F238E5746007C4590 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76962E238E5746007C4590 /* ContentView.swift */; };
+		DB769631238E5747007C4590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB769630238E5747007C4590 /* Assets.xcassets */; };
+		DB769634238E5747007C4590 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB769633238E5747007C4590 /* Preview Assets.xcassets */; };
+		DB769637238E5747007C4590 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB769635238E5747007C4590 /* LaunchScreen.storyboard */; };
+		DB76963F238E6123007C4590 /* ApertureStopChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76963E238E6123007C4590 /* ApertureStopChartView.swift */; };
+		DB769641238E615C007C4590 /* ShutterSpeedStopChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB769640238E615C007C4590 /* ShutterSpeedStopChartView.swift */; };
+		DB769643238E616B007C4590 /* ISOStopChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB769642238E616B007C4590 /* ISOStopChartView.swift */; };
+		DB769645238E61C7007C4590 /* WhatIsStopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB769644238E61C7007C4590 /* WhatIsStopView.swift */; };
+		DB769647238E9E40007C4590 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB769646238E9E40007C4590 /* AboutView.swift */; };
+		DB929B1923B23B68005A1E5A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB929B1B23B23B68005A1E5A /* Localizable.strings */; };
+		DB98E42123C0F68400E32E4B /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB98E42023C0F68400E32E4B /* AboutView.swift */; };
+		DBD2B5E923C0DE55001A5922 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD2B5E723C0DE55001A5922 /* Interface.storyboard */; };
+		DBD2B5EB23C0DE56001A5922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD2B5EA23C0DE56001A5922 /* Assets.xcassets */; };
+		DBD2B5F223C0DE56001A5922 /* Stop Chart Apple Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DBD2B5F123C0DE56001A5922 /* Stop Chart Apple Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DBD2B5F723C0DE56001A5922 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2B5F623C0DE56001A5922 /* ContentView.swift */; };
+		DBD2B5F923C0DE56001A5922 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2B5F823C0DE56001A5922 /* HostingController.swift */; };
+		DBD2B5FB23C0DE56001A5922 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2B5FA23C0DE56001A5922 /* ExtensionDelegate.swift */; };
+		DBD2B5FD23C0DE56001A5922 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2B5FC23C0DE56001A5922 /* NotificationController.swift */; };
+		DBD2B5FF23C0DE56001A5922 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2B5FE23C0DE56001A5922 /* NotificationView.swift */; };
+		DBD2B60123C0DE57001A5922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD2B60023C0DE57001A5922 /* Assets.xcassets */; };
+		DBD2B60423C0DE57001A5922 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD2B60323C0DE57001A5922 /* Preview Assets.xcassets */; };
+		DBD2B60923C0DE57001A5922 /* Stop Chart Apple Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DBD2B5E523C0DE55001A5922 /* Stop Chart Apple Watch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DBD2B61323C0DEDB001A5922 /* ApertureStopChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2B61223C0DEDB001A5922 /* ApertureStopChartView.swift */; };
+		DBD2B61523C0DEEB001A5922 /* ShutterSpeedStopChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2B61423C0DEEB001A5922 /* ShutterSpeedStopChartView.swift */; };
+		DBD2B61723C0DEFB001A5922 /* ISOStopChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2B61623C0DEFB001A5922 /* ISOStopChartView.swift */; };
+		DBD2B61923C0DF09001A5922 /* WhatIsStopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2B61823C0DF09001A5922 /* WhatIsStopView.swift */; };
+		DBD2B61A23C0E254001A5922 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB929B1B23B23B68005A1E5A /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBD2B5F323C0DE56001A5922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB76961F238E5746007C4590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBD2B5F023C0DE56001A5922;
+			remoteInfo = "Stop Chart Apple Watch Extension";
+		};
+		DBD2B60723C0DE57001A5922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB76961F238E5746007C4590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBD2B5E423C0DE55001A5922;
+			remoteInfo = "Stop Chart Apple Watch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DBD2B60D23C0DE57001A5922 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DBD2B5F223C0DE56001A5922 /* Stop Chart Apple Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD2B61123C0DE57001A5922 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DBD2B60923C0DE57001A5922 /* Stop Chart Apple Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DB742740238EEC530031AFAC /* Stop Chart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Stop Chart.entitlements"; sourceTree = "<group>"; };
+		DB769627238E5746007C4590 /* Stop Chart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stop Chart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB76962A238E5746007C4590 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB76962C238E5746007C4590 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DB76962E238E5746007C4590 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB769630238E5747007C4590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB769633238E5747007C4590 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB769636238E5747007C4590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB769638238E5747007C4590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB76963E238E6123007C4590 /* ApertureStopChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApertureStopChartView.swift; sourceTree = "<group>"; };
+		DB769640238E615C007C4590 /* ShutterSpeedStopChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShutterSpeedStopChartView.swift; sourceTree = "<group>"; };
+		DB769642238E616B007C4590 /* ISOStopChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISOStopChartView.swift; sourceTree = "<group>"; };
+		DB769644238E61C7007C4590 /* WhatIsStopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIsStopView.swift; sourceTree = "<group>"; };
+		DB769646238E9E40007C4590 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		DB929B1A23B23B68005A1E5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DB929B1C23B23B78005A1E5A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DB98E42023C0F68400E32E4B /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		DBD2B5E523C0DE55001A5922 /* Stop Chart Apple Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stop Chart Apple Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD2B5E823C0DE55001A5922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		DBD2B5EA23C0DE56001A5922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBD2B5EC23C0DE56001A5922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD2B5F123C0DE56001A5922 /* Stop Chart Apple Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Stop Chart Apple Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD2B5F623C0DE56001A5922 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBD2B5F823C0DE56001A5922 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		DBD2B5FA23C0DE56001A5922 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		DBD2B5FC23C0DE56001A5922 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		DBD2B5FE23C0DE56001A5922 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		DBD2B60023C0DE57001A5922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBD2B60323C0DE57001A5922 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBD2B60523C0DE57001A5922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD2B60623C0DE57001A5922 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		DBD2B61223C0DEDB001A5922 /* ApertureStopChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApertureStopChartView.swift; sourceTree = "<group>"; };
+		DBD2B61423C0DEEB001A5922 /* ShutterSpeedStopChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShutterSpeedStopChartView.swift; sourceTree = "<group>"; };
+		DBD2B61623C0DEFB001A5922 /* ISOStopChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISOStopChartView.swift; sourceTree = "<group>"; };
+		DBD2B61823C0DF09001A5922 /* WhatIsStopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIsStopView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB769624238E5746007C4590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD2B5EE23C0DE56001A5922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB76961E238E5746007C4590 = {
+			isa = PBXGroup;
+			children = (
+				DB769629238E5746007C4590 /* Stop Chart */,
+				DBD2B5E623C0DE55001A5922 /* Stop Chart Apple Watch */,
+				DBD2B5F523C0DE56001A5922 /* Stop Chart Apple Watch Extension */,
+				DB769628238E5746007C4590 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB769628238E5746007C4590 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB769627238E5746007C4590 /* Stop Chart.app */,
+				DBD2B5E523C0DE55001A5922 /* Stop Chart Apple Watch.app */,
+				DBD2B5F123C0DE56001A5922 /* Stop Chart Apple Watch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB769629238E5746007C4590 /* Stop Chart */ = {
+			isa = PBXGroup;
+			children = (
+				DB742740238EEC530031AFAC /* Stop Chart.entitlements */,
+				DB76962A238E5746007C4590 /* AppDelegate.swift */,
+				DB76962C238E5746007C4590 /* SceneDelegate.swift */,
+				DB76962E238E5746007C4590 /* ContentView.swift */,
+				DB76963E238E6123007C4590 /* ApertureStopChartView.swift */,
+				DB769640238E615C007C4590 /* ShutterSpeedStopChartView.swift */,
+				DB769642238E616B007C4590 /* ISOStopChartView.swift */,
+				DB769644238E61C7007C4590 /* WhatIsStopView.swift */,
+				DB769646238E9E40007C4590 /* AboutView.swift */,
+				DB769630238E5747007C4590 /* Assets.xcassets */,
+				DB929B1B23B23B68005A1E5A /* Localizable.strings */,
+				DB769635238E5747007C4590 /* LaunchScreen.storyboard */,
+				DB769638238E5747007C4590 /* Info.plist */,
+				DB769632238E5747007C4590 /* Preview Content */,
+			);
+			path = "Stop Chart";
+			sourceTree = "<group>";
+		};
+		DB769632238E5747007C4590 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB769633238E5747007C4590 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DBD2B5E623C0DE55001A5922 /* Stop Chart Apple Watch */ = {
+			isa = PBXGroup;
+			children = (
+				DBD2B5E723C0DE55001A5922 /* Interface.storyboard */,
+				DBD2B5EA23C0DE56001A5922 /* Assets.xcassets */,
+				DBD2B5EC23C0DE56001A5922 /* Info.plist */,
+			);
+			path = "Stop Chart Apple Watch";
+			sourceTree = "<group>";
+		};
+		DBD2B5F523C0DE56001A5922 /* Stop Chart Apple Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DBD2B5F623C0DE56001A5922 /* ContentView.swift */,
+				DBD2B61223C0DEDB001A5922 /* ApertureStopChartView.swift */,
+				DBD2B61423C0DEEB001A5922 /* ShutterSpeedStopChartView.swift */,
+				DBD2B61623C0DEFB001A5922 /* ISOStopChartView.swift */,
+				DBD2B61823C0DF09001A5922 /* WhatIsStopView.swift */,
+				DB98E42023C0F68400E32E4B /* AboutView.swift */,
+				DBD2B5F823C0DE56001A5922 /* HostingController.swift */,
+				DBD2B5FA23C0DE56001A5922 /* ExtensionDelegate.swift */,
+				DBD2B5FC23C0DE56001A5922 /* NotificationController.swift */,
+				DBD2B5FE23C0DE56001A5922 /* NotificationView.swift */,
+				DBD2B60023C0DE57001A5922 /* Assets.xcassets */,
+				DBD2B60523C0DE57001A5922 /* Info.plist */,
+				DBD2B60623C0DE57001A5922 /* PushNotificationPayload.apns */,
+				DBD2B60223C0DE57001A5922 /* Preview Content */,
+			);
+			path = "Stop Chart Apple Watch Extension";
+			sourceTree = "<group>";
+		};
+		DBD2B60223C0DE57001A5922 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DBD2B60323C0DE57001A5922 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB769626238E5746007C4590 /* Stop Chart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB76963B238E5747007C4590 /* Build configuration list for PBXNativeTarget "Stop Chart" */;
+			buildPhases = (
+				DB769623238E5746007C4590 /* Sources */,
+				DB769624238E5746007C4590 /* Frameworks */,
+				DB769625238E5746007C4590 /* Resources */,
+				DBD2B61123C0DE57001A5922 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBD2B60823C0DE57001A5922 /* PBXTargetDependency */,
+			);
+			name = "Stop Chart";
+			productName = "Stop Chart";
+			productReference = DB769627238E5746007C4590 /* Stop Chart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBD2B5E423C0DE55001A5922 /* Stop Chart Apple Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD2B60E23C0DE57001A5922 /* Build configuration list for PBXNativeTarget "Stop Chart Apple Watch" */;
+			buildPhases = (
+				DBD2B5E323C0DE55001A5922 /* Resources */,
+				DBD2B60D23C0DE57001A5922 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBD2B5F423C0DE56001A5922 /* PBXTargetDependency */,
+			);
+			name = "Stop Chart Apple Watch";
+			productName = "Stop Chart Apple Watch";
+			productReference = DBD2B5E523C0DE55001A5922 /* Stop Chart Apple Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		DBD2B5F023C0DE56001A5922 /* Stop Chart Apple Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD2B60A23C0DE57001A5922 /* Build configuration list for PBXNativeTarget "Stop Chart Apple Watch Extension" */;
+			buildPhases = (
+				DBD2B5ED23C0DE56001A5922 /* Sources */,
+				DBD2B5EE23C0DE56001A5922 /* Frameworks */,
+				DBD2B5EF23C0DE56001A5922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stop Chart Apple Watch Extension";
+			productName = "Stop Chart Apple Watch Extension";
+			productReference = DBD2B5F123C0DE56001A5922 /* Stop Chart Apple Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB76961F238E5746007C4590 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Lukas Mauffré";
+				TargetAttributes = {
+					DB769626238E5746007C4590 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					DBD2B5E423C0DE55001A5922 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					DBD2B5F023C0DE56001A5922 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = DB769622238E5746007C4590 /* Build configuration list for PBXProject "Stop Chart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = DB76961E238E5746007C4590;
+			productRefGroup = DB769628238E5746007C4590 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB769626238E5746007C4590 /* Stop Chart */,
+				DBD2B5E423C0DE55001A5922 /* Stop Chart Apple Watch */,
+				DBD2B5F023C0DE56001A5922 /* Stop Chart Apple Watch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB769625238E5746007C4590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB769637238E5747007C4590 /* LaunchScreen.storyboard in Resources */,
+				DB929B1923B23B68005A1E5A /* Localizable.strings in Resources */,
+				DB769634238E5747007C4590 /* Preview Assets.xcassets in Resources */,
+				DB769631238E5747007C4590 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD2B5E323C0DE55001A5922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD2B5EB23C0DE56001A5922 /* Assets.xcassets in Resources */,
+				DBD2B5E923C0DE55001A5922 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD2B5EF23C0DE56001A5922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD2B60423C0DE57001A5922 /* Preview Assets.xcassets in Resources */,
+				DBD2B61A23C0E254001A5922 /* Localizable.strings in Resources */,
+				DBD2B60123C0DE57001A5922 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB769623238E5746007C4590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB769647238E9E40007C4590 /* AboutView.swift in Sources */,
+				DB76962B238E5746007C4590 /* AppDelegate.swift in Sources */,
+				DB769643238E616B007C4590 /* ISOStopChartView.swift in Sources */,
+				DB769641238E615C007C4590 /* ShutterSpeedStopChartView.swift in Sources */,
+				DB76963F238E6123007C4590 /* ApertureStopChartView.swift in Sources */,
+				DB76962D238E5746007C4590 /* SceneDelegate.swift in Sources */,
+				DB769645238E61C7007C4590 /* WhatIsStopView.swift in Sources */,
+				DB76962F238E5746007C4590 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD2B5ED23C0DE56001A5922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD2B61523C0DEEB001A5922 /* ShutterSpeedStopChartView.swift in Sources */,
+				DBD2B5F923C0DE56001A5922 /* HostingController.swift in Sources */,
+				DBD2B5F723C0DE56001A5922 /* ContentView.swift in Sources */,
+				DBD2B5FD23C0DE56001A5922 /* NotificationController.swift in Sources */,
+				DB98E42123C0F68400E32E4B /* AboutView.swift in Sources */,
+				DBD2B61323C0DEDB001A5922 /* ApertureStopChartView.swift in Sources */,
+				DBD2B61923C0DF09001A5922 /* WhatIsStopView.swift in Sources */,
+				DBD2B5FB23C0DE56001A5922 /* ExtensionDelegate.swift in Sources */,
+				DBD2B5FF23C0DE56001A5922 /* NotificationView.swift in Sources */,
+				DBD2B61723C0DEFB001A5922 /* ISOStopChartView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBD2B5F423C0DE56001A5922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBD2B5F023C0DE56001A5922 /* Stop Chart Apple Watch Extension */;
+			targetProxy = DBD2B5F323C0DE56001A5922 /* PBXContainerItemProxy */;
+		};
+		DBD2B60823C0DE57001A5922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBD2B5E423C0DE55001A5922 /* Stop Chart Apple Watch */;
+			targetProxy = DBD2B60723C0DE57001A5922 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB769635238E5747007C4590 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB769636238E5747007C4590 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DB929B1B23B23B68005A1E5A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB929B1A23B23B68005A1E5A /* en */,
+				DB929B1C23B23B78005A1E5A /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		DBD2B5E723C0DE55001A5922 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBD2B5E823C0DE55001A5922 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB769639238E5747007C4590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB76963A238E5747007C4590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB76963C238E5747007C4590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Stop Chart/Stop Chart.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Stop Chart/Preview Content\"";
+				DEVELOPMENT_TEAM = TG3S7QB2LR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Stop Chart/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lukas4.Stop-Chart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB76963D238E5747007C4590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Stop Chart/Stop Chart.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Stop Chart/Preview Content\"";
+				DEVELOPMENT_TEAM = TG3S7QB2LR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Stop Chart/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lukas4.Stop-Chart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBD2B60B23C0DE57001A5922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Stop Chart Apple Watch Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = TG3S7QB2LR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Stop Chart Apple Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lukas4.Stop-Chart.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		DBD2B60C23C0DE57001A5922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Stop Chart Apple Watch Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = TG3S7QB2LR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Stop Chart Apple Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lukas4.Stop-Chart.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		DBD2B60F23C0DE57001A5922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TG3S7QB2LR;
+				IBSC_MODULE = Stop_Chart_Apple_Watch_Extension;
+				INFOPLIST_FILE = "Stop Chart Apple Watch/Info.plist";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lukas4.Stop-Chart.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		DBD2B61023C0DE57001A5922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TG3S7QB2LR;
+				IBSC_MODULE = Stop_Chart_Apple_Watch_Extension;
+				INFOPLIST_FILE = "Stop Chart Apple Watch/Info.plist";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lukas4.Stop-Chart.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB769622238E5746007C4590 /* Build configuration list for PBXProject "Stop Chart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB769639238E5747007C4590 /* Debug */,
+				DB76963A238E5747007C4590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB76963B238E5747007C4590 /* Build configuration list for PBXNativeTarget "Stop Chart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB76963C238E5747007C4590 /* Debug */,
+				DB76963D238E5747007C4590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD2B60A23C0DE57001A5922 /* Build configuration list for PBXNativeTarget "Stop Chart Apple Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD2B60B23C0DE57001A5922 /* Debug */,
+				DBD2B60C23C0DE57001A5922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD2B60E23C0DE57001A5922 /* Build configuration list for PBXNativeTarget "Stop Chart Apple Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD2B60F23C0DE57001A5922 /* Debug */,
+				DBD2B61023C0DE57001A5922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB76961F238E5746007C4590 /* Project object */;
+}
