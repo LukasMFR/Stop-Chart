@@ -81,6 +81,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DB3D07182B9A72D100C772B1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DB742740238EEC530031AFAC /* Stop Chart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Stop Chart.entitlements"; sourceTree = "<group>"; };
 		DB769627238E5746007C4590 /* Stop Chart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stop Chart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB76962A238E5746007C4590 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -139,6 +140,7 @@
 		DB76961E238E5746007C4590 = {
 			isa = PBXGroup;
 			children = (
+				DB3D07182B9A72D100C772B1 /* README.md */,
 				DB769629238E5746007C4590 /* Stop Chart */,
 				DBD2B5E623C0DE55001A5922 /* Stop Chart Apple Watch */,
 				DBD2B5F523C0DE56001A5922 /* Stop Chart Apple Watch Extension */,
