@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB4C320C2B9B221C0018731F /* iPhone_screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4C320B2B9B221C0018731F /* iPhone_screenshot.png */; };
+		DB4C32122B9B24D10018731F /* Watch_screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4C320D2B9B24D10018731F /* Watch_screenshot.png */; };
+		DB4C32132B9B24D10018731F /* iPad_screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4C320E2B9B24D10018731F /* iPad_screenshot.png */; };
+		DB4C32142B9B24D10018731F /* iPhone_screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4C320F2B9B24D10018731F /* iPhone_screenshot2.png */; };
+		DB4C32152B9B24D10018731F /* Watch_screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4C32102B9B24D10018731F /* Watch_screenshot2.png */; };
+		DB4C32162B9B24D10018731F /* Mac_screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4C32112B9B24D10018731F /* Mac_screenshot.png */; };
 		DB57C76A2B9A6F1A00770679 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DB57C7692B9A6F1A00770679 /* README.md */; };
 		DB76962B238E5746007C4590 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76962A238E5746007C4590 /* AppDelegate.swift */; };
 		DB76962D238E5746007C4590 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76962C238E5746007C4590 /* SceneDelegate.swift */; };
@@ -83,6 +89,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DB4C320B2B9B221C0018731F /* iPhone_screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_screenshot.png; sourceTree = "<group>"; };
+		DB4C320D2B9B24D10018731F /* Watch_screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Watch_screenshot.png; sourceTree = "<group>"; };
+		DB4C320E2B9B24D10018731F /* iPad_screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad_screenshot.png; sourceTree = "<group>"; };
+		DB4C320F2B9B24D10018731F /* iPhone_screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_screenshot2.png; sourceTree = "<group>"; };
+		DB4C32102B9B24D10018731F /* Watch_screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Watch_screenshot2.png; sourceTree = "<group>"; };
+		DB4C32112B9B24D10018731F /* Mac_screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mac_screenshot.png; sourceTree = "<group>"; };
 		DB57C7692B9A6F1A00770679 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DB742740238EEC530031AFAC /* Stop Chart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Stop Chart.entitlements"; sourceTree = "<group>"; };
 		DB769627238E5746007C4590 /* Stop Chart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stop Chart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,9 +152,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB4C320A2B9B211C0018731F /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				DB4C320E2B9B24D10018731F /* iPad_screenshot.png */,
+				DB4C320F2B9B24D10018731F /* iPhone_screenshot2.png */,
+				DB4C32112B9B24D10018731F /* Mac_screenshot.png */,
+				DB4C320D2B9B24D10018731F /* Watch_screenshot.png */,
+				DB4C32102B9B24D10018731F /* Watch_screenshot2.png */,
+				DB4C320B2B9B221C0018731F /* iPhone_screenshot.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		DB76961E238E5746007C4590 = {
 			isa = PBXGroup;
 			children = (
+				DB4C320A2B9B211C0018731F /* Screenshots */,
 				DB57C7692B9A6F1A00770679 /* README.md */,
 				DB769629238E5746007C4590 /* Stop Chart */,
 				DBD2B5E623C0DE55001A5922 /* Stop Chart Apple Watch */,
@@ -333,11 +359,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB4C32152B9B24D10018731F /* Watch_screenshot2.png in Resources */,
+				DB4C320C2B9B221C0018731F /* iPhone_screenshot.png in Resources */,
+				DB4C32132B9B24D10018731F /* iPad_screenshot.png in Resources */,
 				DB769637238E5747007C4590 /* LaunchScreen.storyboard in Resources */,
 				DB929B1923B23B68005A1E5A /* Localizable.strings in Resources */,
+				DB4C32162B9B24D10018731F /* Mac_screenshot.png in Resources */,
 				DB57C76A2B9A6F1A00770679 /* README.md in Resources */,
 				DB769634238E5747007C4590 /* Preview Assets.xcassets in Resources */,
 				DB769631238E5747007C4590 /* Assets.xcassets in Resources */,
+				DB4C32142B9B24D10018731F /* iPhone_screenshot2.png in Resources */,
+				DB4C32122B9B24D10018731F /* Watch_screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
