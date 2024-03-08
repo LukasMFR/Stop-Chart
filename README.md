@@ -65,8 +65,8 @@ Contributions to the legacy version are welcome! Whether it's reporting a bug sp
 To contribute:
 
 1. Fork the repository.
-2. Switch to the legacy-ios13 branch (git checkout legacy-ios13).
-3. Create your feature branch off the legacy branch (git checkout -b feature/LegacyAmazingFeature).
+2. Switch to the legacy-ios13 branch (`git checkout legacy-ios13`).
+3. Create your feature branch off the legacy branch (`git checkout -b feature/LegacyAmazingFeature`).
 4. Commit your changes and push to the branch.
 5. Open a pull request against the legacy-ios13 branch.
 
