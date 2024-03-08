@@ -11,9 +11,11 @@ Stop Chart is built to empower photographers by offering quick insights into thr
 ## Features
 
 - **Comprehensive Stop Charts**: Access detailed charts for exposure, aperture, and ISO settings.
-- **Cross-Platform Compatibility**: Designed for iPhone, iPad, Mac, and Apple Watch.
+- **Cross-Platform Compatibility**: Designed for iPhone, iPad, Mac, and Apple Watch. Compatible with iOS 14.0 and watchOS 7.0 or newer.
 - **Intuitive Design**: Built with SwiftUI for a seamless user experience.
 - **Legacy Support**: A separate branch with support for iOS 13 and watchOS 6.
+- **Multilingual Support**: Available in English and French.
+- **Independent Apple Watch App**: The app on Apple Watch supports running without the need for the iOS app installation, offering flexibility and convenience.
 
 ## Screenshots
 
@@ -36,6 +38,8 @@ Stop Chart is built to empower photographers by offering quick insights into thr
 </p>
 
 ## Installation
+
+Stop Chart requires at least iOS 14.0 and watchOS 7.0 to run.
 
 As Stop Chart is no longer available on the App Store, you'll need to manually install it by cloning the repository and setting it up in Xcode.
 
@@ -72,4 +76,3 @@ There is a branch called [legacy-ios13](https://github.com/LukasMFR/Stop-Chart/t
 ---
 
 We hope Stop Chart enhances your photography experience, and we look forward to your contributions and feedback.
-
